@@ -15,6 +15,7 @@ class AppTest extends Specification {
         a               | b                  | expected
         2g              | 4g                 | 6g
         1               | 3                  | 4
+        98.1f           | 1.9f               | 100.0f
         LocalDate.now() | Period.ofDays(100) | LocalDate.now().plusDays(100)
 
     }
